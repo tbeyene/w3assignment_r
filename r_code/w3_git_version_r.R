@@ -2,7 +2,7 @@
 #setwd("C:\Users\tazeb\OneDrive\Documents\MSBA\OMSBA5112\w3Assignment") 
 
 #read csv file
-csvData = read.csv("\data\baseball.csv") 
+csvData = read.csv("baseball.csv") 
 
 # print the data type of csvData 
 cat("CSV Data type : ",class(csvData), "\n\n") 
